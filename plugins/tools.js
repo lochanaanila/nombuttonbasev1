@@ -3,8 +3,6 @@ const { cmd, commands } = require('../command');
 const fetch = require('node-fetch');
 const {fetchJson} = require('../lib/functions');
 const axios = require('axios');
-const cheerio = require("cheerio");
-const scraper = require("../lib/scraper");
 const emailDataStore = {};
 
 cmd({
